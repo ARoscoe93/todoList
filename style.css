@@ -1,14 +1,32 @@
-h1,
+body {
+  background: linear-gradient(45deg, #1E90FF, rgb(83, 82, 82));
+  font-family: Arial, sans-serif; /* Change font family for better readability */
+  color: #fff; /* Set text color to white for better contrast */
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px; /* Increase font size for emphasis */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px; /* Increase letter spacing for style */
+  margin-bottom: 40px; /* Increase spacing below the title */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for depth */
+}
+
+/* Additional styles for the rest of your elements */
 p,
 #container {
   text-align: center;
+  color: #fff; /* Set text color to white for better contrast */
 }
 
 li {
   list-style: none;
   border-bottom: 1px dotted #CCC;
   height: auto;
-  background-color: #F0F0F0;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust background color for better contrast */
+  color: #333; /* Adjust text color for better readability */
 }
 
 li:hover {
